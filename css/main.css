@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    /* background-color: bisque; */
+    /* background-image: url('../img/0bg.jpg'); */
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(56, 89, 240);
+    border-bottom: honeydew;
+    font-style: italic;
+}
+
+img {
+    border-radius: 10%;
+    border: 5px white dotted;
+    /* border: 50px; */
+}
+
+img:hover {
+    cursor: help;
+}
+
+.border {
+    font-size: 1.6rem;
+    /* display: grid; */
+    place-items: center;
+    /* min-height: 200px; */
+    border: 8px solid;
+    padding: 1rem;
+    text-align: center;
+}
+
+.radial-repeating {
+    border-width: 15px;
+    /* border-image: repeating-radial-gradient( circle at 10px, turquoise, pink 2px, greenyellow 4px, pink 2px) 1; */
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: rgb(13, 228, 228);
+    font-size: 20px;
+}
+
+div.reset {
+    width: 100px;
+    margin: auto;
+}
+
+.border.radial-repeating.btn0 {
+    height: 100px;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(17, 219, 226);
+    color: rgb(255, 255, 255);
+    border-radius: 30%;
+    font-size: 22px;
+    border-color: rgb(5, 163, 168);
+    border-style: double
+}
+
+.border.radial-repeating.btn1 {
+    height: 100px;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(17, 219, 226);
+    color: rgb(255, 255, 255);
+    border-radius: 30%;
+    font-size: 22px;
+    border-color: rgb(5, 163, 168);
+    border-style: double
+}
+
+.border.radial-repeating.btn0:hover {
+    cursor: pointer;
+    border-color: rgb(226, 230, 10);
+}
+
+.border.radial-repeating.btn1:hover {
+    cursor: pointer;
+    border-color: rgb(226, 230, 10);
+}
