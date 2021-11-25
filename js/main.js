@@ -2,7 +2,7 @@ var gQuests = [
     { id: 0, opts: ['20,000 km/hr', '40,000 km/hr'], correctOptIndex: 1, bgimg: "url('../img/0bg.jpg')" }, { id: 1, opts: ['11,000 m', '8,500 m'], correctOptIndex: 0, bgimg: "url('../img/1bg.jpeg')" }, { id: 2, opts: ['300 km', '500 km'], correctOptIndex: 0, bgimg: "url('../img/2bg.jpg')" }, { id: 3, opts: ['150,000 Light Years', '100,000 Light Years'], correctOptIndex: 1, bgimg: "url('../img/0bg.jpg')" }, { id: 4, opts: ['Yuri  Gagarin', 'Alex Paperny'], correctOptIndex: 0, bgimg: "url('../img/4bg.jpg')" }, { id: 5, opts: ['Rosa Parks', 'Amelia Earhart'], correctOptIndex: 1, bgimg: "url('../img/5bg.jpg')" }, { id: 6, opts: ['Vitalik Buterin', 'Boris Pavlov'], correctOptIndex: 0, bgimg: "url('../img/6bg.jpg')" }
 ]
 var sound = new Audio("sound/party.mp3");
-gCurrQuestIdx = 5
+gCurrQuestIdx = 0
 
 function init() {
     renderQuest(gCurrQuestIdx)
